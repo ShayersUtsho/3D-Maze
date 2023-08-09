@@ -808,6 +808,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Hierarchy2.Editor.csproj">
+      <Project>{62C50DCD-5773-03D2-5A72-80DB3426831F}</Project>
+      <Name>Hierarchy2.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Hierarchy2.Runtime.csproj">
+      <Project>{3BCCEA49-3E8E-2AB4-CCBE-B9BC0FFF75C4}</Project>
+      <Name>Hierarchy2.Runtime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
